@@ -1,0 +1,8 @@
+.tooltip {
+}
+
+.tooltip-text {
+  display: absolute;
+  bottom: 5px;
+  background: black;
+}
