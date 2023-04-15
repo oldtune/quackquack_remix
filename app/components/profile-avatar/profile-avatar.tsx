@@ -1,13 +1,19 @@
+import { LinksFunction } from "@remix-run/node";
+import styles from "./profile-avatar.css";
+
+export const links: LinksFunction = () => {
+    return [{ rel: "stylesheet", href: styles }];
+};
 
 export type ProfileAvatarProps = {
-    size: string;
+    size?: string;
+    url: string;
 };
 
 export default function ProfileAvatar(props: ProfileAvatarProps) {
     return (
-        // <div className="profile-avatar">
-        //     <Avatar sx={{ height: props.size, width: props.size }} src="https://i.imgur.com/UvbOO1F_d.webp?maxwidth=520&shape=thumb&fidelity=high" alt="Profile picture" />
-        // </div>
-        <div>avatar</div>
+        <div className="profile-avatar-container" style={{ width: props.size ? props.size : '40px', height: props.size ? props.size : '40px' }}>
+            <img className="object-cover profile-avatar border rounded-full" style={{ width: props.size ? props.size : '40px', height: props.size ? props.size : '40px' }} src={props.url} />
+        </div>
     )
 }
