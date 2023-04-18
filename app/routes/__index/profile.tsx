@@ -16,14 +16,22 @@ export default function Profile() {
   return (
     <div className="container mx-auto">
       <div className="flex grow h-full">
-        <div className="flex profile-content lift-effect bg-amber-100 px-2 pt-8">
+        <div className="flex flex-col basis-4/12 profile-content lift-effect bg-amber-100 px-2 pt-8">
           <ProfileSideBar />
         </div>
-        <div className="flex profile-content lift-effect bg-green-200 px-2 pt-8">
-          <ProfileIntroduction />
-          <ProfileSkillSet />
-          <EmploymentHistory />
-          <ProfileShowCase />
+        <div className="flex flex-col basis-8/12 lift-effect bg-green-200 px-2 pt-8">
+          <div >
+            <ProfileIntroduction />
+          </div>
+          <div >
+            <ProfileSkillSet />
+          </div>
+          <div >
+            <EmploymentHistory />
+          </div>
+          <div >
+            <ProfileShowCase />
+          </div>
         </div>
       </div>
     </div>

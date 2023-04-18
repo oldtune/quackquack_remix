@@ -7,8 +7,7 @@ export default function EmploymentHistory() {
             <div className="mb-2">
                 <Tooltip title="Saigon Technology">
                     <img className="border rounded-full w-5 cursor-pointer inline-block" src="/sts.png" /> </Tooltip>
-                <span className="text-lg"> Senior Developer at Relationshop (2021 - Present)</span>
-                I'm having fun here.
+                <span className="text-lg"> Senior Developer at Saigon Technology (2021 - Present)</span> I'm having fun here.
             </div>
 
             <div className="mb-2">
