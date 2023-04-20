@@ -1,6 +1,6 @@
-.MuiGrid2-root.profile-content {
-  font-family: sans-serif;
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+.profile-content {
+  font-family: system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: normal;
+  color: rgb(102, 102, 119);
 }

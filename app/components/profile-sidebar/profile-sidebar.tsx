@@ -16,7 +16,7 @@ export const ProfileSideBar: React.FC = () => {
       className={`profile-side-bar flex flex-1 flex-col flex-wrap ${"sticky top-0"}`}
     >
       <div className="profile-avatar-container flex pt-2 px-2">
-        <ProfileAvatar url="https://i.imgur.com/UvbOO1F_d.webp?maxwidth=520&shape=thumb&fidelity=high" size={'100px'} />
+        <ProfileAvatar url="/buffin.jpg" size={'100px'} />
       </div>
       <div className="personal-info font-mono px-2 justify-center">
         <div>
